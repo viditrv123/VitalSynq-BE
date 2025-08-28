@@ -1,9 +1,10 @@
 import { Router } from "express";
+import UserController from "../controllers/user.js";
 
 const userRouter = Router();
 
-userRouter.get("/", async (req, res) => {
-  res.status(200).send("Healthy");
+userRouter.post("/signIn", async (req, res) => {
+  return UserController.signIn(req, res);
 });
 
 export default userRouter;

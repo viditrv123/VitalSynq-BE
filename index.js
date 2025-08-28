@@ -1,7 +1,7 @@
 import express from "express";
 import envVars from "./constants/envVars.js";
 import router from "./routes/index.js";
-import DatabaseConnext from "./configs/database.js";
+import DatabaseConnext from "./config/database.js";
 
 const app = express();
 app.use(express.json());
