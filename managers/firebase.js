@@ -1,5 +1,5 @@
 import admin from "firebase-admin";
-import envVars from "../constants/envVars";
+import envVars from "../constants/envVars.js";
 
 const {
   FIREBASE_AUTH_URI,
