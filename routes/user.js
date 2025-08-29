@@ -3,8 +3,8 @@ import UserController from "../controllers/user.js";
 
 const userRouter = Router();
 
-userRouter.post("/signIn", async (req, res) => {
-  return UserController.signIn(req, res);
+userRouter.post("/outh2", async (req, res) => {
+  return UserController.oauth2(req, res);
 });
 
 export default userRouter;

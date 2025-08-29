@@ -20,6 +20,7 @@ const {
   FIREBASE_CERT_URI,
   FIREBASE_CLIENT_URL,
   FIREBASE_UNIVER_DOMAIN,
+  JWT_TOKEN,
 } = process.env;
 
 const envVars = {
@@ -42,6 +43,7 @@ const envVars = {
   FIREBASE_CERT_URI,
   FIREBASE_CLIENT_URL,
   FIREBASE_UNIVER_DOMAIN,
+  JWT_TOKEN,
 };
 
 export default envVars;
